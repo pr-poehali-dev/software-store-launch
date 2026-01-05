@@ -200,7 +200,11 @@ const Contacts = () => {
               Наша команда поддержки готова помочь вам в любое время суток
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" className="neon-glow">
+              <Button 
+                size="lg" 
+                className="neon-glow"
+                onClick={() => window.open('https://mail.google.com', '_blank')}
+              >
                 <Icon name="MessageCircle" className="mr-2" />
                 Написать в поддержку
               </Button>
