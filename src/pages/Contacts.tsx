@@ -9,7 +9,7 @@ const Contacts = () => {
       username: "@cybersoft_shop",
       icon: "Send",
       color: "primary",
-      link: "#"
+      link: "https://t.me/notefory0u"
     },
     {
       name: "Discord",
@@ -132,6 +132,7 @@ const Contacts = () => {
                 <Button 
                   className="w-full neon-glow"
                   style={{ backgroundColor: `hsl(var(--neon-${messenger.color}))` }}
+                  onClick={() => window.open(messenger.link, '_blank')}
                 >
                   <Icon name="ExternalLink" className="mr-2" size={16} />
                   Открыть
