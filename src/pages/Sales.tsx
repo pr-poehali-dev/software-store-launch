@@ -6,7 +6,7 @@ import Icon from "@/components/ui/icon";
 const Sales = () => {
   const hotDeals = [
     {
-      title: "VALORANT Private Cheat",
+      title: "Valorant Start",
       game: "Valorant",
       price: "2990₽",
       oldPrice: "4990₽",
